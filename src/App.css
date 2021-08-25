@@ -1,38 +1,445 @@
-.App {
+/* setting some color variables for the website */
+:root {
+  --dark: rgb(183, 174, 240);
+  --light: rgb(47, 42, 56);
+  --blue: rgb(104, 104, 212);
+  --purple: plum;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+/* creating the theme for the page, font and background color */
+body {
+  background: black;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+/* styling the header */
+header {
+  /* background: rgba(255, 255, 255, 0.904); */
+  background: black;
+  padding: 10px;
+  color:rgb(104, 104, 212);
+}
+
+header h1 {
+  margin: 2%;
+  font-size: 400%;
+  font-weight: bolder;
+  border-radius: 2px;
+  padding: 1%;
+  display: inline;
+  border: solid rgb(231, 213, 213);
+}
+
+header nav {
+  align-content: right;
+  padding-top: 5%;
+  min-width: 50%;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin-top: -10px;
+}
+
+.nav {
+  display: inline-block;
+  margin-left: 2%;
+  padding: 0.2% 1% 0.2% 1%;
+  border-radius: 10px;
+  font-size: 200%;
+}
+
+.nav:hover {
+  box-shadow: inset 3px 2px rgb(221, 182, 182);
+  background:rgb(245, 222, 222);
+  color: var(--blue)
+}
+
+.nav a {
+  color:rgb(104, 104, 212);
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Placing an image as the background */
+.img-card {
+  display: flex;
+  background: rgb(218, 224, 230)
+}
+.image {
+  width: 320px;
+  height: 300px;
+  align-items: center;
+  padding:1%;
+  margin-left: 35%;
+}
+
+h5 {
+  display: inline-block;
+  font-size: 150%;
+  background:rgb(116, 6, 160);
+  color: white;
+  padding: 10px;
+}
+
+.img-content p {
+  color: black;
+  font-size: 150%;
+  padding: 1%;
+}
+
+/* styling the sections in the body */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content:flex-start;
+  justify-content: left;
+}
+
+.content {
+  /* background:rgba(255, 255, 255, 0.904); */
+  /* background: linear-gradient(90deg,rgb(231, 213, 213) 0%,rgb(228, 198, 198) 35%,rgb(231, 213, 213) 100%); */
+  background: black;
+  padding: 20px;
+  width: 100%;
+  flex-grow: 1 1 1;
+}
+
+.subcontent {
+  margin: 1px;
+}
+
+/* Styling the headers within the content class */
+.content h2 {
+  display: block;
+  width: 150px;
+  font-size: 200%;
+  text-align: right;
+  margin: 10px;
+  padding: 20px;
+  color: var(--blue);
+  border-right: solid rgb(231, 213, 213);
+}
+/* styling p tags in content classs */
+.content p {
+  max-width: 75%;
+  margin-left: 20px;
+  padding: 5px;
+  color:rgb(231, 213, 213);
+  font-size: 150%
+}
+/* styling class two of main */
+.two {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-grow: 1 1 1;
+}
+
+.workcontent div:hover {
+  opacity: 0.85;
+}
+
+.workcontent div a{
+  height: 15%;
+  width: 100%;
+  display: block;
+  
+  color:black;
+  font-weight: bolder;
+  padding: 4%;
+  text-decoration: none;
+  text-align: left;
+  font-size: 100%;
+  flex-shrink: inherit;
+  flex-grow: 1 0 0;
+}
+
+.worktitle {
+  background:rgba(135, 206, 250, 0.445);
+  border: solid 1px lightskyblue;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.github-link {
+  background: rgba(221, 160, 221, 0.541);
+  border: solid 1px plum;
+  margin-left: 2px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.worktitle:hover {
+  background: lightskyblue;
+}
+.github-link:hover {
+  background: plum
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.workcontent div {
   display: flex;
-  flex-direction: column;
+  flex-shrink: 1 0 0; 
+  background-size: cover;
+  opacity: 1;
+  height: 300px;
+  min-width: 400px;
+  align-items: flex-end;
+  
+}
+
+.workone div{
+  background-image:url('./images/recipe-network-preview.png') ;
+  
+}
+.worktwo div{
+  background-image: url('./images/tech-blog-image.png');
+}
+.workthree div{
+  background-image: url('./images/06-hw-preview.png');
+}
+/* styling the contact section of main */
+.contact-div {
+  display: inline;
+  flex-wrap: wrap;
+  align-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 35px
+
+}
+.contact {
+  align-content: center;
+  flex-grow: 1 1 1;
+  display: inline;
+  margin-top: 20px;
+  margin-left: 0px;
+  padding: 1px 1px 1px 1px;
+  font-size: 150%;
 }
 
-.App-link {
-  color: #61dafb;
+.contact a {
+  text-decoration: underline;
+  padding: 5px;
+  margin-left: 5px;
+  margin-bottom: 20%;
+  flex-shrink: 3 0 0;
+  display: inline;
+  padding-left: 0px;
+  color:rgb(231, 213, 213);
+  align-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contact a:hover {
+  color:rgb(115, 112, 134);
+}
+
+.email::before {
+  content: '\1F4E7';
+  margin-left: 10px;
+}
+.tel::before {
+  content: '\1F4DE';
+  margin-left: 10px;
+}
+.git::before {
+  content: '\1F4BB';
+  margin-left: 10px;
+}
+
+.footer {
+  color:rgb(134, 129, 143);
+  text-align: center;
+  font-size: 150%;
+}
+
+.footer::after {
+  content: ' \2714'
+}
+
+/* creating styling changes for smaller screens */
+@media screen and (max-width: 1575px) {
+  .workcontent div {
+      display: flex;
+      flex-shrink: 1 0 0; 
+      background-size: cover;
+      opacity: 1;
+      height: 230px;
+      min-width: 230px;
+      align-items: flex-end;
+
   }
-  to {
-    transform: rotate(360deg);
+  .workcontent div a {
+      height: 25%
+  }
+  .workone {
+      min-width: 230px;
+  }
+
+  .nav {
+      font-size:120%
+  }
+
+  .contact {
+      font-size: 100%
   }
 }
+@media screen and (max-width: 980px) {
+  header nav ul {
+      display: block;
+  }
+
+  .nav {
+      font-size: 100%
+  }
+  header nav {
+      font-size:90%
+  }
+  body {
+      margin: 0px;
+  }
+  main {
+    display: block;
+    align-items: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .content h2 {
+      display: block;
+      border-right: none;
+      border-bottom: solid rgb(134, 129, 143);
+      width: 100%;
+      text-align: center;
+      margin-left: 0px;
+  }
+
+  .content p {
+      width: 100%;
+      display: block;
+      align-items: center
+  }
+
+  .content ul {
+      display:block;
+      padding: 10px
+  }
+  .content ul li {
+      display: block;
+      padding-bottom: 10px;
+  }
+  
+  .workcontent {
+      display: flex;
+      width: 45%;
+      flex-flow: column wrap;
+  }
+  .workone {
+      min-width: 90%;
+  }
+
+  .worktwo, .workthree {
+      margin-left: 1px
+  }
+}
+/* creating styling changes for mobile screens */
+@media screen and (max-width: 695px) {
+  body {
+      display: block;
+      align-content: center;
+  }
+  header h1{
+      display: block;
+      width: 100%;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+  }
+  header nav {
+      width:100%;
+      align-items: center;
+      align-content: center;
+  }
+  .nav {
+      display: inline-block;
+      align-content: center;
+      margin: 0px;
+      padding: 4px;
+      width: 100%;
+      font-size: 150%;
+  }
+
+  .image {
+      margin-left: 25%;
+      height: 300px;
+      width: 250px;
+  }
+  .image p {
+      margin-left: 5px;
+      font-size: 100%
+  }
+  main {
+    display: block;
+    align-items: center;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  .content h2 {
+      display: block;
+      border-right: none;
+      border-bottom: solid rgb(134, 129, 143);
+      width: 100%;
+      align-content:center;
+      text-align: center;
+      margin-right: 20px;
+  }
+
+  .content {
+      width: 100%;
+      display: block;
+      align-items: center
+  } 
+
+  .content ul {
+      display:block;
+      padding: 5px
+  }
+  .content ul li {
+      display: block;
+      padding-bottom: 10px;
+      font-size: 100%;
+  }
+  
+  .workcontent {
+      display: flex;
+      width: 93%;
+      flex-flow: column wrap;
+  }
+  .workone {
+      min-width: 93%;
+  }
+
+}
+
+/* creating responsive design or smaller phone screens */
+@media screen and (max-width: 290px) {
+  .content p {
+      font-size: 90%;
+      margin: 0;
+  }
+  .contact-div {
+      margin: 0;
+      display:inline-block
+  }
+  .contact a {
+      font-size: 90%;
+      padding: 0px;
+  }
+  .footer {
+      font-size: 100%;
+  }
+}
+
