@@ -8,7 +8,7 @@
 }
 
 * {
-  padding: 0;
+  padding-top: 10px;
   margin: 0;
 }
 /* creating the theme for the page, font and background color */
@@ -234,18 +234,11 @@ section {
   background-image: url('./images/note-taker.png');
 }
 /* styling the contact section of main */
-.contact-div {
-  display: inline;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
-  margin-top: 35px
 
-}
 .contact-div {
-  align-content: center;
-  flex-grow: 1 1 1;
-  display: inline;
+  text-align: center;
+  width: 100%;
+  display: block;
   margin-top: 20px;
   margin-left: 10px;
   padding: 1px 1px 1px 1px;
@@ -294,8 +287,12 @@ section {
   font-size: 150%;
 }
 
-.footer::after {
+.footerCheck::after {
   content: ' \2714'
+}
+.footer a {
+  color:rgb(134, 129, 143);
+  margin: 1%
 }
 
 .message-form {

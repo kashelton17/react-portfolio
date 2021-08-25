@@ -69,18 +69,16 @@ const projectData = [
                     <input id='submit-form' type='submit' />
                 </form>
             </div>
-            <ul className='subcontent contact-div'>
+            <div className='subcontent contact-div'>
+            <ul >
                 <li className='contact email'>
                     <a href="mailto: kashelton17@gmail.com" target="_blank" rel="noreferrer"> kashelton17@gmail.com</a>
                 </li>
                 <li className='contact tel' >
                     <a href="tel:2245653235"> Phone</a>
                 </li>
-                <li className='contact git'>
-                    <a href="github.com/kashelton17" target='_blank' rel="noreferrer">GitHub</a>
-                    <a href='https://www.linkedin.com/in/katie-shelton-67115365/' target="_blank" rel="noreferrer">LinkedIn</a>
-                </li>
             </ul>
+            </div>
         </section>
     ), route: 'contact-me'},
 ]
