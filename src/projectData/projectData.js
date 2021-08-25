@@ -34,17 +34,17 @@ const projectData = [
     {id: 3, title: 'Contact Me', html: (
         <section className='content three' id='contact-me'>
             <h2>Contact Me</h2>
-            <div>
-                <form className='message-form'>
-                    <label htmlFor='name-input'></label>
+            <div className='message-form'>
+                <form >
+                    <label htmlFor='name-input'>Name: </label>
                     <input type='text' id='name-input' placeholder='Name' />
                     
-                    <label htmlFor='email-input'></label>
+                    <label htmlFor='email-input'>Email: </label>
                     <input type='text' id='email-input' placeholder='Email'/>
                     
-                    <label htmlFor='message-input'></label>
-                    <input type='text' id='message-input' placeholder='Message'/>
-                    <input type='submit' onClick={(event) => event.preventDefault()}/>
+                    <label htmlFor='message-input'>Mesage: </label>
+                    <input type='text' id='message-input' placeholder='Message' size='200'/>
+                    <input id='submit-form' type='submit' />
                 </form>
             </div>
             <ul className='subcontent contact-div'>

@@ -1,3 +1,4 @@
+
 /* setting some color variables for the website */
 :root {
   --dark: rgb(183, 174, 240);
@@ -210,26 +211,33 @@ section {
   margin-top: 35px
 
 }
-.contact {
+.contact-div {
   align-content: center;
   flex-grow: 1 1 1;
   display: inline;
   margin-top: 20px;
-  margin-left: 0px;
+  margin-left: 10px;
   padding: 1px 1px 1px 1px;
   font-size: 150%;
+}
+#contact-me h2 {
+  display: inline;
 }
 
 .contact a {
   text-decoration: underline;
-  padding: 5px;
-  margin-left: 5px;
+  text-align: center;
+  padding: 25px;
+  margin-left: 25px;
   margin-bottom: 20%;
+  margin-top: 10px;
   flex-shrink: 3 0 0;
-  display: inline;
   padding-left: 0px;
   color:rgb(231, 213, 213);
   align-content: center;
+}
+.contact-div li {
+  margin-top: 20px
 }
 
 .contact a:hover {
@@ -257,6 +265,44 @@ section {
 
 .footer::after {
   content: ' \2714'
+}
+
+.message-form {
+  display: inline;
+  width: 50%;
+  color:rgb(231, 213, 213)
+}
+
+.message-form input{
+  display: block;
+  color:black;
+  margin: 5px;
+}
+
+#submit-form {
+  margin: 5px;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  color:rgb(104, 104, 212);
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+#submit-form:hover {
+  background-color:rgb(231, 213, 213);
+  cursor: pointer;
+}
+
+label {
+  margin: 5px;
+  display: block
+}
+
+#message-input {
+  margin: 5px;
+  width: 100%;
+  line-height: 500%;
 }
 
 /* creating styling changes for smaller screens */
@@ -344,6 +390,8 @@ section {
       margin-left: 1px
   }
 }
+
+
 /* creating styling changes for mobile screens */
 @media screen and (max-width: 695px) {
   body {
