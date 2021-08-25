@@ -112,19 +112,20 @@ section {
 }
 
 .subcontent {
+  display:inline;
   margin: 1px;
+  width: 33%
 }
 
 /* Styling the headers within the content class */
 .content h2 {
   display: block;
-  width: 150px;
   font-size: 200%;
-  text-align: right;
+  text-align: center;
   margin: 10px;
   padding: 20px;
   color: var(--blue);
-  border-right: solid rgb(231, 213, 213);
+  border-bottom: solid rgb(231, 213, 213);
 }
 /* styling p tags in content classs */
 .content p {
@@ -140,6 +141,13 @@ section {
   flex-wrap: wrap;
   align-content: center;
   flex-grow: 1 1 1;
+}
+
+
+.workcontent {
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap
 }
 
 .workcontent div:hover {

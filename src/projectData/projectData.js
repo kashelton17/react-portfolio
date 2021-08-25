@@ -11,22 +11,44 @@ const projectData = [
     {id: 2, title: 'Work', html: (
         <section className='content two' id='work'>
             <h2>Work</h2>
-            <div className='workcontent subcontent workone'>
-                <div>
-                    <a className='worktitle' href="https://northwestern-bootcamp.github.io/recipeNetwork/" target='_blank' rel="noreferrer">Recipe Network</a>
-                    <a className='github-link' href="https://github.com/Northwestern-Bootcamp/recipeNetwork" target="_blank" rel="noreferrer">Repository</a>
-                </div>
-            </div>
-            <div className='workcontent subcontent worktwo'>
-                <div>
-                    <a className='worktitle' href=" https://tech-blog-hw-14.herokuapp.com/" target='_blank' rel="noreferrer">Tech Blog</a>
-                    <a className='github-link' href="https://github.com/kashelton17/13-hw-tech-blog/" target="_blank" rel="noreferrer">Repository</a>
-                </div>
-            </div>
-            <div className='workcontent subcontent workthree'>
-                <div>
-                    <a className='worktitle' href="https://kashelton17.github.io/06-hw-weather-dashboard/" target='_blank' rel="noreferrer">Weather Dasboard</a>
-                    <a className='github-link' href="https://github.com/kashelton17/06-hw-weather-dashboard" target="_blank" rel="noreferrer">Repository</a>
+            <div className='work'> 
+                <div className='workcontent'>
+                    <div className='subcontent workone'>
+                        <div>
+                            <a className='worktitle' href="https://northwestern-bootcamp.github.io/recipeNetwork/" target='_blank' rel="noreferrer">Recipe Network</a>
+                            <a className='github-link' href="https://github.com/Northwestern-Bootcamp/recipeNetwork" target="_blank" rel="noreferrer">Repository</a>
+                        </div>
+                    </div>
+                    <div className='subcontent worktwo'>
+                        <div>
+                            <a className='worktitle' href=" https://tech-blog-hw-14.herokuapp.com/" target='_blank' rel="noreferrer">Tech Blog</a>
+                            <a className='github-link' href="https://github.com/kashelton17/13-hw-tech-blog/" target="_blank" rel="noreferrer">Repository</a>
+                        </div>
+                    </div>
+                    <div className='subcontent workthree'>
+                        <div>
+                            <a className='worktitle' href="https://kashelton17.github.io/06-hw-weather-dashboard/" target='_blank' rel="noreferrer">Weather Dasboard</a>
+                            <a className='github-link' href="https://github.com/kashelton17/06-hw-weather-dashboard" target="_blank" rel="noreferrer">Repository</a>
+                        </div>
+                    </div>
+                    <div className='subcontent workfour'>
+                        <div>
+                            <a className='worktitle' href="https://kashelton17.github.io/06-hw-weather-dashboard/" target='_blank' rel="noreferrer">Weather Dasboard</a>
+                            <a className='github-link' href="https://github.com/kashelton17/06-hw-weather-dashboard" target="_blank" rel="noreferrer">Repository</a>
+                        </div>
+                    </div>
+                    <div className='subcontent workfive'>
+                        <div>
+                            <a className='worktitle' href="https://kashelton17.github.io/06-hw-weather-dashboard/" target='_blank' rel="noreferrer">Weather Dasboard</a>
+                            <a className='github-link' href="https://github.com/kashelton17/06-hw-weather-dashboard" target="_blank" rel="noreferrer">Repository</a>
+                        </div>
+                    </div>
+                    <div className='subcontent worksix'>
+                        <div>
+                            <a className='worktitle' href="https://kashelton17.github.io/06-hw-weather-dashboard/" target='_blank' rel="noreferrer">Weather Dasboard</a>
+                            <a className='github-link' href="https://github.com/kashelton17/06-hw-weather-dashboard" target="_blank" rel="noreferrer">Repository</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
