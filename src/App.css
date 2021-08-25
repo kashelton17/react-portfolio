@@ -26,6 +26,7 @@ header {
 }
 
 header h1 {
+
   margin: 2%;
   font-size: 400%;
   font-weight: bolder;
@@ -79,12 +80,12 @@ header nav ul {
   margin-left: 35%;
 }
 
+
 h5 {
   display: inline-block;
   font-size: 150%;
-  background:rgb(116, 6, 160);
-  color: white;
-  padding: 10px;
+  color: purple;
+  padding: 20px;
 }
 
 .img-content p {
@@ -119,6 +120,16 @@ section {
 
 /* Styling the headers within the content class */
 .content h2 {
+  display: inline;
+  font-size: 200%;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  color: var(--blue);
+  border-right: solid rgb(231, 213, 213);
+}
+
+.workHeader {
   display: block;
   font-size: 200%;
   text-align: center;
@@ -161,7 +172,7 @@ section {
   
   color:black;
   font-weight: bolder;
-  padding: 4%;
+  padding: 0%;
   text-decoration: none;
   text-align: left;
   font-size: 100%;
@@ -197,7 +208,7 @@ section {
   height: 300px;
   min-width: 400px;
   align-items: flex-end;
-  
+  margin-top: 10px
 }
 
 .workone div{
@@ -209,6 +220,18 @@ section {
 }
 .workthree div{
   background-image: url('./images/06-hw-preview.png');
+}
+
+.workfour div{
+  background-image: url('./images/budget-tracker.png');
+}
+
+.workfive div{
+  background-image: url('./images/project-2.png');
+}
+
+.worksix div{
+  background-image: url('./images/note-taker.png');
 }
 /* styling the contact section of main */
 .contact-div {
