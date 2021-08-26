@@ -35,6 +35,11 @@ function App() {
           <Project project={projectData[2]} />
           <Footer />
         </Route>
+        <Route exact path="/4">
+          <Header />
+          <Project project={projectData[3]} />
+          <Footer />
+        </Route>
       </Switch>
       </div>
     </Router>

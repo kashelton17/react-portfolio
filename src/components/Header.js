@@ -12,7 +12,7 @@ export default function Header() {
         <div className="card mb-3" >
         <div className="row g-0 img-card">
           <div className="col-lg-4 md-5 img-card">
-            <img className="image" src="/images/IMG_3206.jpg" alt="katie looking over water" />
+            <img className="image" src="./images/IMG_3206.jpg" alt="katie looking over water" />
           </div>
           <div className="col-md-8 img-card">
             <div className="card-body img-content">

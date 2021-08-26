@@ -11,9 +11,6 @@ export default function Navigation(/*{ current }*/) {
             <nav>
                 <ul>
                     {projectNav}
-                    <li className='nav res btn'>
-                        <a href="/images/KatieSheltonResume.pdf" target='_blank'>Resume</a> 
-                    </li>
                 </ul>
             </nav>
         </div>

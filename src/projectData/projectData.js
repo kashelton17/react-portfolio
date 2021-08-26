@@ -81,6 +81,31 @@ const projectData = [
             </div>
         </section>
     ), route: 'contact-me'},
+    {id: 4, title: 'Resume', html: (
+        <section className='content one' id='about-me'>
+            <h2>Proficiencies</h2>
+            <ul className='profList'>
+                <a href="/images/KatieSheltonResume.pdf" target='_blank'><h4>Download Resume</h4></a>  
+                <li>
+                    <h4>Frontend:</h4>
+                </li>
+                <li>HTML</li>    
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>JQuery</li>
+                <li>React</li>
+                <li>HTML</li>
+                <li>
+                    <h4>Backend:</h4>
+                </li>
+                <li>Nodejs</li>
+                <li>Express</li>
+                <li>APIs</li>
+                <li>MySql</li>
+                <li>NoSql</li>
+            </ul>
+        </section>
+    ), route: ''}
 ]
 
 export default projectData
