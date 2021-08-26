@@ -464,6 +464,11 @@ label {
       font-size: 150%;
   }
 
+  .img-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .image {
       margin-left: 25%;
       height: 300px;
