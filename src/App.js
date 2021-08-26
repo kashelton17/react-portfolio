@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Project from './components/Projects'
 import projectData from './projectData/projectData';
-import { Link, Switch, Route, BrowserRouter as Router } from 'react-router-dom'
+import { Link, Switch, Route, HashRouter as Router } from 'react-router-dom'
 
 
 
