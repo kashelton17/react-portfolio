@@ -20,7 +20,7 @@ export default function Header() {
               <p className="card-text">This page contains Katie's work from Northwestern Bootcamp attended from March 31, 2021 until graduation on September 19, 2021. 
                   The works displays knowledge of Javascript, HTML, CSS and many of the libraries and other material covered. 
               </p>
-              <p className="card-text"><small className="text-muted">Last updated 7/29/2021</small></p>
+              <p className="card-text"><small className="text-muted">Last updated 8/26/2021</small></p>
             </div>
           </div>
         </div>
